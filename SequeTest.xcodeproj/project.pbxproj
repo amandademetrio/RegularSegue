@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D04F0D4A2147345A00728B53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F0D492147345A00728B53 /* AppDelegate.swift */; };
-		D04F0D4C2147345A00728B53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F0D4B2147345A00728B53 /* ViewController.swift */; };
+		D04F0D4C2147345A00728B53 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F0D4B2147345A00728B53 /* MainVC.swift */; };
 		D04F0D4F2147345A00728B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04F0D4D2147345A00728B53 /* Main.storyboard */; };
 		D04F0D522147345A00728B53 /* SequeTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D04F0D502147345A00728B53 /* SequeTest.xcdatamodeld */; };
 		D04F0D542147345B00728B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04F0D532147345B00728B53 /* Assets.xcassets */; };
 		D04F0D572147345B00728B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04F0D552147345B00728B53 /* LaunchScreen.storyboard */; };
+		D0B5650E214738BA00F95C13 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B5650D214738BA00F95C13 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D04F0D462147345A00728B53 /* SequeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SequeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04F0D492147345A00728B53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D04F0D4B2147345A00728B53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D04F0D4B2147345A00728B53 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		D04F0D4E2147345A00728B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D04F0D512147345A00728B53 /* SequeTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SequeTest.xcdatamodel; sourceTree = "<group>"; };
 		D04F0D532147345B00728B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D04F0D562147345B00728B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D04F0D582147345B00728B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B5650D214738BA00F95C13 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,9 @@
 		D04F0D482147345A00728B53 /* SequeTest */ = {
 			isa = PBXGroup;
 			children = (
+				D0B5650D214738BA00F95C13 /* SecondVC.swift */,
 				D04F0D492147345A00728B53 /* AppDelegate.swift */,
-				D04F0D4B2147345A00728B53 /* ViewController.swift */,
+				D04F0D4B2147345A00728B53 /* MainVC.swift */,
 				D04F0D4D2147345A00728B53 /* Main.storyboard */,
 				D04F0D532147345B00728B53 /* Assets.xcassets */,
 				D04F0D552147345B00728B53 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D04F0D4C2147345A00728B53 /* ViewController.swift in Sources */,
+				D04F0D4C2147345A00728B53 /* MainVC.swift in Sources */,
 				D04F0D4A2147345A00728B53 /* AppDelegate.swift in Sources */,
+				D0B5650E214738BA00F95C13 /* SecondVC.swift in Sources */,
 				D04F0D522147345A00728B53 /* SequeTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
